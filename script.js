@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const KMA_API_KEY = "11klmI+dRQMUtb30vqSIWaFkUBZBiSAm4PzRv7llDU7+EJ7e5nUdJ1whFSHwbHvRrQyK3HOvAFXpWhZJCwNc3w==";
+    const KMA_API_KEY = "1Xr7wYsVs3ubJCJJDYKqt46oaGQ8c0gktM2uj837bBuH1xG41u9op6v8kMGy2y3xYnYpAQDt+b+HJykqFlfl0g==";
 
     // 'locations' 변수는 locations_data.js 에서 제공
 
