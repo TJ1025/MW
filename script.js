@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function fetchWeatherData(apiKey, base_date, base_time, nx, ny, apiType) {
         const service = apiType === 'Ncst' ? 'getUltraSrtNcst' : 'getUltraSrtFcst';
-        const url = `http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/${service}`;
+        const url = `https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/${service}`;
         // 초단기예보는 1시간 단위로 6시간까지 제공, 각 시간당 약 10개 항목. numOfRows는 넉넉하게.
         const numOfRows = apiType === 'Ncst' ? '10' : '60'; 
         const params = new URLSearchParams({
