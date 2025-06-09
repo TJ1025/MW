@@ -267,7 +267,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             const filteredLocations = locations.filter(loc => loc.name.toLowerCase().includes(searchTerm));
             populateLocationOptions(filteredLocations.length > 0 ? filteredLocations : []);
-        }, 1000)); // 1000ms 지연
+        }, 300)); // 300ms 지연
         // ▲▲▲▲▲▲▲▲▲▲ 이벤트 리스너 수정 끝 ▲▲▲▲▲▲▲▲▲▲
 
         if (!navigator.geolocation || locationSelect.options.length <=1 ) { populateLocationOptions(locations); }
